@@ -1,0 +1,18 @@
+# This file configures the analyzer and formatter for this package.
+# For more information, see: https://dart.dev/guides/language/analysis-options
+
+# Lint rules that the flutter team at Google recommends.
+# For more info, see: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo
+linter:
+  rules:
+    # Disable these lint rules until we can fix all the existing violations
+    # and make sure we don't violate them again.
+    - avoid_dynamic_calls
+    - avoid_print
+    - cancel_subscriptions
+    - close_sinks
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - prefer_double_quotes
+    - sort_child_properties_last
+    - sort_unnamed_constructors_first
